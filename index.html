@@ -1,3 +1,24 @@
 <html>
-  <meta http-equiv="refresh" content="0; url=https://yoyoEu.github.io/public/index.html">
+
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+
+<body>
+	<div id="vue">
+		<div>{{message}}</div>
+	</div>
+</body>
+
+<script>
+	var app = new Vue({
+		el: '#vue',
+		data () {
+			return {
+				message: 'Hello world!'
+			}
+		}
+	});
+</script>
+
 </html>
